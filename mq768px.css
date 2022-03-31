@@ -1,0 +1,227 @@
+
+.container1{
+    grid-template-areas: 
+    'section';
+    grid-template-columns: 1fr;  
+}
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+}
+
+.navbar-content{
+    height: 60px;
+    margin-top: 0px;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.logo-name h2{
+    font-size: 15px;
+}
+
+.logo-name h3{
+    font-size: 12px;
+}
+
+.heading{
+    font-size: 18px;
+}
+
+.search input{
+    width: 100%;
+    font-size: 12px;
+}
+
+.fa-bell{
+    font-size: 10px;
+}
+
+.profile{
+    margin-right: 0px;
+}
+
+/* Carousel */
+
+.carousel-conatiner{
+    height: 30%;
+    margin: 10px auto;
+}
+
+.carousel label{
+    width: 88%;
+    height: 80%;
+}
+
+/* Latest Release */
+
+.latest{
+    margin: auto;
+    height: 32%;
+}
+
+.image{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.music-detail h3{
+    font-size: 14px;
+}
+
+.overlay{
+    top: -109%;
+}
+
+.music-detail h4{
+    font-size: 12px;
+}
+
+.fa-ellipsis-h{
+    font-size: 14px;
+}
+
+/* Popular-Artist */
+
+.popular{
+    margin: 10px auto;
+    height: 20%;
+}
+
+.artist-img{
+    height: 65px;
+    width: 65px;
+}
+
+.artist-img h5{
+    font-size: 8px;
+}
+
+.overlay-artist{
+    top: -11.5px;
+}
+
+
+.fa-stream{
+    font-size: 20px;
+}
+
+/* Stations */
+
+.stations{
+    margin: 20px auto;
+    height: 15%;
+}
+
+.option{
+    height: 65px;
+    width: 65px;
+}
+
+.play-station{
+    transform: translate(-50%, -60%);
+}
+
+/* Type */
+
+.type{
+    margin: auto;
+    height: 20%;
+}
+
+.inner-type{
+    height: 115px;
+    width: 130px;
+}
+
+.inner-img-detail{
+    font-size: 18px;
+}
+
+
+/* Latest-English-Hindi */
+
+.latest-english-hindi{
+    margin: 20px auto;
+    height: 25%;
+}
+
+.english-hindi-img{
+    height: 65px;
+    width: 65px;
+}
+
+.english-hindi-img h3{
+    font-size: 10px;
+}
+
+.english-hindi-img h4{
+    font-size: 8px;
+}
+
+/* Sidebar */
+
+.aside{
+    display: none;
+}
+
+/* Footer */
+
+.player-module{
+    height: 65px;
+}
+
+.music-module img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}
+
+.text{
+    margin: 0px 5px;
+}
+
+.text h4{
+    font-size: 12px;
+}
+
+.text h5{
+    font-size: 10px;
+}
+
+.like-btn1{
+    font-size: 12px;
+}
+
+.btns{
+    padding-bottom: 0px;
+}
+
+.btns i{
+    font-size: 0.6rem;
+    margin: 0px 10px;
+}
+
+
+#myRange{
+    width: 14em;
+}
+
+#volumeRange{
+    width: 3em;
+}
+
+.fa-volume-up{
+    font-size: 12px;
+}
+
+.slider::-webkit-slider-thumb{
+    width: 0.8em;
+    height: 0.8em;
+}

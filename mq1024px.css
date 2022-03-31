@@ -1,0 +1,216 @@
+
+/* Navbar */
+
+.navbar-content{
+    grid-template-columns: 2fr 5fr 4fr 1fr 2fr;
+}
+
+.logo{
+    margin-left: 18px;
+}
+
+.heading{
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.search input{
+    width: 100%;
+    font-size: 15px;
+}
+
+#search label{
+    font-size: 15px;
+}
+
+#id2{
+    font-size: 15px;
+}
+
+.profile{
+    margin-right: 18px;
+}
+
+/* Carousel */
+
+.carousel-conatiner{
+    margin: 0px 70px;
+    height: 35%;
+}
+
+.carousel label{
+    width: 88%;
+    height: 88%;
+}
+
+/* Latest Release */
+
+.latest{
+    margin: 15px 40px;
+    height: 35%;
+}
+
+.card{
+    height: 6rem;
+}
+
+.image{
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+.music-detail{
+    padding-left: 0.3rem;
+}
+
+.drop-btn{
+    padding-left: 140px;
+}
+
+.content{
+    min-width: 155px;
+}
+
+.content a{
+    padding: 8px 14px;
+    font-size: 12px;
+}
+
+/* Popular-Artist */
+
+.popular{
+    margin: 0px 40px;
+    height: 25%;
+}
+
+.container-for-artist{
+    padding-top: 25px;
+}
+
+.artist-img{
+    height: 75px;
+    width: 75px;
+}
+
+.overlay-artist{
+    top: -12px;
+}
+
+.fa-stream{
+    font-size: 25px;
+}
+
+.artist-img h5{
+    font-size: 9px;
+}
+
+/* Stations */
+
+.stations{
+    margin: 15px 40px;
+    height: 18%;
+}
+
+.option{
+    height: 75px;
+    width: 75px;
+}
+
+/* Type */
+
+.type{
+    margin: 0px 40px;
+    margin-top: -45px;
+}
+
+.inner-type{
+    height: 120px;
+    width: 155px;
+}
+
+.inner-img-detail{
+    font-size: 20px;
+}
+
+/* Latest-English-Hindi */
+
+.latest-english-hindi{
+    margin: 10px 40px;
+}
+
+.mt{
+    margin-top: -35px;
+}
+
+.english-hindi-img{
+    height: 78px;
+    width: 78px;
+}
+
+.english-hindi-img h3{
+    font-size: 12px;
+}
+
+.english-hindi-img h4{
+    font-size: 10px;
+}
+
+.overlay-english-hindi{
+    font-size: 25px;
+}
+
+/* Sidebar */
+
+.aside{
+    width: 100%;
+    transform: translateX(-25%);
+    background-color: transparent;
+}
+
+.aside-left{
+    margin-left: 5px;
+}
+
+.drop-btn2{
+    font-size: 12px;
+}
+
+.content2{
+    min-width: 150px;
+}
+
+.music-info h2{
+    font-size: 0.8rem;
+}
+
+.music-img{
+    height: 40px;
+    width: 40px;
+}
+
+.music-img{
+    margin-left: 5px;
+}
+
+.queue-detail{
+    padding: 0px 5px;
+}
+
+.overlay-queue{
+    font-size: 18px;
+}
+
+/* Footer */
+
+#myRange{
+    width: 20em;
+}
+
+#volumeRange{
+    width: 5em;
+}
+
+.slider::-webkit-slider-thumb{
+    width: 1em;
+    height: 1em;
+}

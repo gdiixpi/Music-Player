@@ -1,0 +1,234 @@
+
+/* Navbar */
+
+.navbar-content{
+    grid-template-areas: 
+    'logo heading search';
+    grid-template-columns: 1fr 4fr 4fr;
+}
+
+.logo{
+    margin-left: 0px;
+}
+
+.heading{
+    font-size: 14px;
+}
+
+#search{
+    margin-right: 10px;
+}
+
+.search input{
+    font-size: 10px;
+}
+
+.fa-bell{
+    font-size: 6px;
+}
+
+.notification{
+    display: none;
+}
+
+.profile{
+    display: none;
+}
+
+/* Carousel */
+
+.carousel-conatiner{
+    height: 24%;
+    margin: 0px auto;
+}
+
+.carousel label{
+    width: 90%;
+    height: 65%;
+}
+
+/* Latest Release */
+
+.latest{
+    margin: 10px auto;
+    height: 25%;
+}
+
+.main-heading{
+    font-size: 12px;
+}
+
+.card{
+    height: 4.5rem;
+}
+
+.image{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.music-detail{
+    padding-left: 0px;
+}
+
+.music-detail h3{
+    font-size: 8px;
+}
+
+.music-detail h4{
+    font-size: 6px;
+}
+
+.overlay{
+    top: -111%;
+}
+
+.play{
+    font-size: 20px;
+}
+
+.fa-ellipsis-h{
+    font-size: 10px;
+}
+
+.drop-btn{
+    padding-left: 75px;
+}
+
+.content{
+    min-width: 80px;
+}
+
+.content a{
+    padding: 5px 10px;
+    font-size: 6px;
+}
+
+/* Popular-Artist */
+
+.popular{
+    height: 15%;
+}
+
+.artist-img{
+    height: 45px;
+    width: 45px;
+}
+
+.overlay-artist{
+    top: -9px;
+}
+
+.artist-img h5{
+    font-size: 5px;
+}
+
+.fa-stream{
+    font-size: 15px;
+}
+
+/* Stations */
+
+.stations{
+    margin: 10px auto;
+    height: 10%;
+    border-radius: 15px;
+}
+
+.option{
+    height: 45px;
+    width: 45px;
+}
+
+/* Type */
+
+.type{
+    margin: 10px auto;
+    height: 12%;
+}
+
+.inner-type{
+    height: 70px;
+    width: 85px;
+}
+
+.inner-img-detail{
+    font-size: 12px;
+}
+
+/* Latest-English-Hindi */
+
+.latest-english-hindi{
+    margin: 10px auto;
+    height: 18%;
+}
+
+.english-hindi-img{
+    height: 42px;
+    width: 42px;
+}
+
+.english-hindi-img h3{
+    font-size: 6.5px;
+}
+
+.english-hindi-img h4{
+    font-size: 5px;
+}
+
+.overlay-english-hindi{
+    font-size: 18px;
+}
+
+
+/* Footer */
+
+.music-module img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+}
+
+.slidecontainer h5{
+    font-size: 10px;
+}
+
+.text h4{
+    font-size: 10px;
+}
+
+.text h5{
+    font-size: 8px;
+}
+
+.like-btn1{
+    display: none;
+}
+
+.btns{
+    padding-bottom: 4px;
+}
+
+.btns i{
+    font-size: 0.5rem;
+    margin: 0px 8px;
+}
+
+#myRange{
+    width: 9em;
+    height: 0.4em;
+}
+
+#volumeRange{
+    width: 2em;
+    height: 0.3em;
+}
+
+.fa-volume-up{
+    font-size: 10px;
+}
+
+.slider::-webkit-slider-thumb{
+    width: 0.6em;
+    height: 0.6em;
+}

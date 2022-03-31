@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="img/jfif" href="Images/2113.jpg">
+    <link href="file:///C:/Users/DELL/Desktop/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1462px)" type="text/css" href="mq1462px.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" type="text/css" href="mq1024px.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" type="text/css" href="mq768px.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" type="text/css" href="mq480px.css">
+    <title>MusicPlayer</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="logo">
+                    <img src="Images/2113.jpg">
+                    <div class="logo-name">
+                        <h3>Space</h3>
+                        <h2>Station</h2>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h4>Favourits</h4>
+                </div>
+                <div class="search">
+                    <div id="search">
+                        <label for="search1"><i id="id1" class="fas fa-search "></i></label>
+                        <input type="text" id="search1" name="search" placeholder="Search"><i id="id2" class="fas fa-microphone"></i>
+                    </div> 
+                </div>
+                <div class="notification">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="profile logo">
+                    <img src="Images/profile.jpg">
+                </div>
+            </div>
+        </nav>
+
+        <div class="container1">
+            <section class="section">
+
+                <!--carousel-->
+                <div class="carousel-conatiner">
+                    <div class="carousel">
+                        <input type="radio" name="slider" id="s1">
+                        <input type="radio" name="slider" id="s2">
+                        <input type="radio" name="slider" id="s3" checked>
+                        <input type="radio" name="slider" id="s4">
+                        <input type="radio" name="slider" id="s5">
+                        <label for="s1" id="slide1" class="cards"><img src="Images/BANNER_1115336909154176.png"></label>
+                        <label for="s2" id="slide2" class="cards"><img src="Images/BANNER_1123458945813881.png"></label>
+                        <label for="s3" id="slide3" class="cards"><img src="Images/BANNER_200972844241968.png"></label>
+                        <label for="s4" id="slide4" class="cards"><img src="Images/BANNER_429962309656586.png"></label>
+                        <label for="s5" id="slide5" class="cards"><img src="Images/BANNER_53998988551075.png"></label>
+                    </div>
+                </div>
+                
+
+                <!--Latest-Release-->
+                <div class="latest">
+                    <div class="main-heading">
+                        <h2>Latest Release</h2>   
+                    </div>
+                    <div class="container-for-card">
+                        <div class="card">
+                            <div class="image">
+                                <img src="Images/faded.jpg">
+                                <div class="overlay">
+                                    <a href="#" class="play">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="music-detail">
+                                <h3>Faded</h3>
+                                <h4>Alan Walker</h4>
+                            </div>
+                            <div class="menu-icon">
+                                <div class="dropdown">
+                                    <a href="#dropdown" class="drop-btn">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div id="dropdown" class="content">
+                                        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play Now</a>
+                                        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Add to Favourites</a>
+                                        <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> Get Info</a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="Images/closer.jpg">
+                                <div class="overlay">
+                                    <a href="#" class="play">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="music-detail">
+                                <h3>Closer</h3>
+                                <h4>Chainsmokers</h4>
+                            </div>
+                            <div class="menu-icon">
+                                <div class="dropdown">
+                                    <a href="#dropdown" class="drop-btn">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div id="dropdown" class="content">
+                                        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play Now</a>
+                                        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Add to Favourites</a>
+                                        <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> Get Info</a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="Images/takitaki.jpg">
+                                <div class="overlay">
+                                    <a href="#" class="play">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="music-detail">
+                                <h3>Taki Taki</h3>
+                                <h4>Selena Gomez</h4>
+                            </div>
+                            <div class="menu-icon">
+                                <div class="dropdown">
+                                    <a href="#dropdown" class="drop-btn">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div id="dropdown" class="content">
+                                        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play Now</a>
+                                        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Add to Favourites</a>
+                                        <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> Get Info</a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="Images/leanon.jpg">
+                                <div class="overlay">
+                                    <a href="#" class="play">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="music-detail">
+                                <h3>Lean On</h3>
+                                <h4>Dj Snake</h4>
+                            </div>
+                            <div class="menu-icon">
+                                <div class="dropdown">
+                                    <a href="#dropdown" class="drop-btn">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div id="dropdown" class="content">
+                                        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play Now</a>
+                                        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Add to Favourites</a>
+                                        <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> Get Info</a>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>      
+                </div>
+
+                <!--Popular-Artist-->
+                <div class="popular">
+                    <div class="main-heading">
+                        <h2>Popular Artists</h2>
+                    </div>
+                    <div class="container-for-artist">
+                        <div class="artist-img">
+                            <img src="Images/ed-sheeran.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>Ed Sheeran</h5>
+                        </div>
+                        <div class="artist-img mq1462px">
+                            <img src="Images/camila.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>Camila Cabello</h5>
+                        </div>
+                        <div class="artist-img">
+                            <img src="Images/coldplay.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>ColdPlay</h5>
+                        </div>
+                        <div class="artist-img">
+                            <img src="Images/bruno.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>Bruno Mars</h5>
+                        </div>
+                        <div class="artist-img">
+                            <img src="Images/charlie.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>Charlie Puth</h5>
+                        </div>
+                        <div class="artist-img">
+                            <img src="Images/justin.jpg" alt="">
+                            <div class="overlay-artist">
+                                <a href="about.html"><i class="fas fa-stream"></i></a>
+                            </div>
+                            <h5>Justin Bieber</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Stations-->
+                <div class="stations">
+                    <div class="option-container">
+                        <div class="option">
+                            <img src="Images/love.jpg">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <img src="Images/retro.jpg">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <img src="Images/chill.png">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <img src="Images/workout.jpg">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <img src="Images/rock2.jpg">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <img src="Images/pop.jpg">
+                            <div class="overlay-station">
+                                <a href="#" class="play-station">
+                                    <i class="fas fa-stream"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Type-->
+                <div class="type">
+                    <div class="inner-type">
+                        <img class="inner-img" src="Images/party.jpg" alt="">
+                        <div class="inner-img-detail">
+                            <h5>Party</h5>
+                        </div>
+                    </div>
+                    <div class="inner-type">
+                        <img class="inner-img" src="Images/electronic.jpg" alt="">
+                        <div class="inner-img-detail">
+                            <h5>Electronic</h5>
+                        </div>
+                    </div>
+                    <div class="inner-type">
+                        <img class="inner-img" src="Images/road-trip.jpg" alt="">
+                        <div class="inner-img-detail">
+                            <h5>Road Trip</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Latest-English-->
+                <div class="latest-english-hindi mt">
+                    <div class="main-heading">
+                        <h2>Latest English</h2>
+                    </div>
+                    <div class="english-hindi-music">
+                        <div class="english-hindi-img">
+                            <img src="Images/sugarcrash.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Sugar Crash</h3>
+                            <h4>Elyotto</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/telepatia.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Telepatia</h3>
+                            <h4>Sin Miedo</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/kissforever.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Can We Kiss Forever?</h3>
+                            <h4>Kina</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/lovely.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Lovely</h3>
+                            <h4>Billie Eilish</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/cradles.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Cradles</h3>
+                            <h4>Besomorph</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/lalala.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>La La La</h3>
+                            <h4>AREA21</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--Latest-Hindi-->
+                <div class="latest-english-hindi">
+                    <div class="main-heading">
+                        <h2>Latest Hindi</h2>
+                    </div>
+                    <div class="english-hindi-music">
+                        <div class="english-hindi-img">
+                            <img src="Images/hawa-banke.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Hawa Banke</h3>
+                            <h4>Darshan Raval</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/fursat.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Fursat</h3>
+                            <h4>Arjun Kanungo</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/shayad.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Shayad</h3>
+                            <h4>Arijit Singh</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/baarish.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Baarish</h3>
+                            <h4>Ash King</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/tamasha.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Agar Tum Saath Ho</h3>
+                            <h4>Alka Yagnik</h4>
+                        </div>
+                        <div class="english-hindi-img">
+                            <img src="Images/rockstar.jpg" alt="">
+                            <div class="overlay-english-hindi">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h3>Kun Faya Kun</h3>
+                            <h4>A R Rahman</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Sidebar-->
+            <aside class="aside item aside-container">
+                <div class="box box-box1-common">
+                    <div class="music-info music-info-nd-1-common">
+                        <h2>Queue</h2>
+                        <div class="dropdown">
+                            <div class="space">
+                                <a href="#dropdown" class="drop-btn2" style="color: aquamarine;">
+                                    Queue&nbsp;<i class="fas fa-caret-down"></i>
+                                </a>
+                            </div>
+                            <div id="dropdown" class="content2">
+                                <a href="#">Playlists</a>
+                                <a href="#">Favourite Songs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside-container aside-left">
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>01</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/leanon.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Lean On</h4>
+                                <p>Dj Snake</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>02</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/closer.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Closer</h4>
+                                <p>Chainsmokers</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>03</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/faded.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Faded</h4>
+                                <p>Alan Walker</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>04</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/takitaki.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Taki Taki</h4>
+                                <p>Selena Gomez</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>05</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/sugarcrash.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Sugar Crash</h4>
+                                <p>Elyotto</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>06</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/kissforever.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Can We Kiss Forever?</h4>
+                                <p>Kina</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>07</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/lalala.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>La La La</h4>
+                                <p>AREA21</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>08</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/letme.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Let Me Love You</h4>
+                                <p>Justin Bieber</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>09</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/lovely.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Lovely</h4>
+                                <p>Billie Eilish</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 box-box1-common">
+                        <div class="music-info-1">
+                            <p>10</p>
+                            <div class="music-img">
+                                <div class="overlay-queue">
+                                    <a href=""><i class="fas fa-play"></i></a>
+                                </div>
+                                <img src="Images/telepatia.jpg">
+                            </div>
+                            <div class="queue-detail">
+                                <h4>Telepatia</h4>
+                                <p>Sin Miedo</p>
+                            </div>
+                            <div class="like-btn">
+                                <i id="like" class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!--Player-Module-->
+    <footer class="player-module">
+        <div class="music-module">
+            <img src="Images/leanon.jpg">
+            <div class="text">
+                <h4>Lean On</h4>
+                <h5>Dj Snake</h5>
+            </div>
+            <div class="like-btn1">
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+        <div class="player">
+            <div class="btns">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-retweet"></i>
+            </div>
+            <div class="slidecontainer">
+                <h5 id="displayValue">
+                    <span id="minutes">min</span>
+                    <span>:</span>
+                    <span id="seconds">second</span>
+                    <span>&ensp;</span>
+                </h5>
+                <input type="range" min="0" max="179" value="89.5" class="slider" id="myRange">
+                <h5>
+                    <span>&ensp;2</span>
+                    <span>:</span>
+                    <span>59</span>
+                </h5>
+            </div>
+        </div>
+        <div class="volume-bar">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+            <span>&ensp;</span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="volumeRange">
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+    <script src="slider.js"></script>
+    
+</body>
+</html>
